@@ -1,0 +1,25 @@
+@import url("main.css");
+
+h1 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.3rem;
+}
+h2 {
+  margin-top: 2rem;
+}
+ul {
+  padding-left: 1.5rem;
+}
+a {
+  color: var(--highlight-color);
+  text-decoration: none;
+}
+.section {
+  margin-bottom: 2rem;
+}
+.project-title {
+  font-weight: bold;
+}
+.tech {
+  font-style: italic;
+}

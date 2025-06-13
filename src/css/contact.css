@@ -1,0 +1,7 @@
+@import url("main.css");
+
+.contact__info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
