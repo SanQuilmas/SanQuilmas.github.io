@@ -1,7 +1,0 @@
-@import url("main.css");
-
-.hobby__section {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}

@@ -2,67 +2,21 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Home</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="/src/css/index.css">
-    <script src="/src/js/main.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leonel Gonzalez</title>
+  <script type="module" crossorigin src="/assets/index-B5fIj3W4.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-Dnm7UpzV.css">
 </head>
 
-<body class="main_page">
-    <header class="head">
-        <nav class="head__nav">
-            <div class="head__nav__list">
-                <div><a href="/index.html">Home</a></div>
-                <div><a href="/src/html/portafolio.html">Portfolio</a></div>
-                <div><a href="/src/html/resume.html">Resume</a></div>
-                <div><a href="/src/html/writing.html">Writing</a></div>
-                <div><a href="/src/html/testimonials.html">Testimonials</a></div>
-                <div><a href="/src/html/now.html">Now</a></div>
-                <div><a href="/src/html/recomendations.html">Recomendations</a></div>
-                <div><a href="/src/html/contact.html">Contact</a></div>
-            </div>
-        </nav>
-    </header>
-    <div class="main_page__main_body">
-        <section class="introduccion">
-            <section class="introduccion__personal_summary introduccion__subsection">
-                <h2>Hi! I'm Leonel</h2>
-                <p>I'm a full-stack software engineer based in Guadalajara, Jalisco, with a passion for building clean,
-                    scalable, and
-                    user-friendly applications for the web and desktop. I've worked across a variety of projects,
-                    from digitizing sheet
-                    music with Rust and React to building internal dashboards with Java and PostgreSQL.</p>
-
-                <p>I thrive on writing clean code, learning new tools, and turning complex challenges into elegant
-                    solutions. Whether it's
-                    designing modern UIs, setting up containerized microservices, or digging into backend logic, I love
-                    getting into the
-                    details and making things just work.</p>
-
-                <p>Right now, I'm part of the development team at Deloitte ADMX, contributing to enterprise-level
-                    applications and
-                    collaborating with cross-functional teams. Outside of work, I'm constantly exploring new
-                    technologies and improving my
-                    craft.</p>
-                <p>I am currently digging deeper into Rust and event-driven systems.</p>
-            </section>
-            <section class="introduccion__me introduccion__subsection">
-                <h2>Me!</h2>
-                <div class="carousel">
-                    <button type="button" class="carrousel__button" id="left_carousel_button">&lt;</button>
-                    <img src="#" alt="" width="500" height="500" class="carousel__image" id="carousel__main__image">
-                    <button type="button" class="carrousel__button" id="right_carousel_button">&gt;</button>
-                </div>
-                <p id="carousel__img__caption" class="carousel__img__caption">This here is a caption</p>
-            </section>
-        </section>
-    </div>
-    <footer class="foot">
-        <p> © 2025 Leonel Gonzalez. All rights Reserved. </p>
-    </footer>
-    <script src="/src/js/carousel.js"></script>
+<body>
+  <div id="root"></div>
 </body>
+
+<script>
+  if (window.location.pathname.endsWith("index.html")) {
+    window.location.replace("/");
+  }
+</script>
 
 </html>
